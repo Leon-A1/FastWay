@@ -11,33 +11,34 @@
   background-color: rgba(20, 23, 54, 0.8);
   color: white;
   display: flex;
-
   flex-direction: row-reverse;
   flex-wrap: wrap;
-
-  align-items: top;
   justify-content: center;
   padding: 20px;
+  align-items: flex-start;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  justify-content: center;
+  align-items: top;
+  text-align: center;
+  margin: 50px;
 }
 .col img {
   max-width: 100px;
   max-height: 100px;
-  margin-bottom: 10px;
-}
-.col {
-  padding: 20px;
-  text-align: right;
-  position: relative;
-  max-width: 450px;
-  text-align: center;
-  min-width: 350px;
-  font-size: 110%;
-  font-family: Arial;
+  margin-bottom: 5px;
 }
 .col p {
-  padding: 10px;
+  padding: 15px;
+  font-size: 110%;
 }
 .col h3 {
+  padding-top: 15px;
+  font-size: 130%;
+
   width: 100%;
-  padding: 20px;
 }
