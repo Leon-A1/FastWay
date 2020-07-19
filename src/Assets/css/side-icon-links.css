@@ -1,0 +1,28 @@
+.links-bar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  right: 10px;
+  bottom: 10px;
+}
+.links-bar img {
+  max-width: 35px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  transition: 800ms ease;
+  animation-name: present-links;
+  animation-duration: 3000ms;
+  animation-timing-function: ease;
+}
+.links-bar img:hover {
+  max-width: 50px;
+  margin-right: 15px;
+}
+@keyframes present-links {
+  from {
+    transform: translateX(300px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

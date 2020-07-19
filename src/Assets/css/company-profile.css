@@ -1,0 +1,74 @@
+.Page-layout-div {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  color: #333;
+
+  /* bottom: 0; */
+  /* height: 100%; */
+}
+.company-profile-content {
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  min-height: 500px;
+  text-align: right;
+  font-size: 105%;
+  font-weight: 550;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 100px;
+  padding: 30px;
+  animation-name: fade-in-from-left;
+  animation-duration: 1400ms;
+  margin-top: 250px;
+}
+.company-profile-content h2 {
+  text-align: center;
+  color: #034187;
+  padding: 20px;
+}
+.company-profile-content p {
+  padding: 10px;
+}
+.header-image {
+  width: 100%;
+  max-height: 250px;
+  position: absolute;
+}
+.page-header {
+  background-color: rgb(0, 0, 0, 0.9);
+  width: 100%;
+  position: relative;
+}
+.access-navbar {
+  text-align: right;
+  padding: 10px;
+  font-size: 80%;
+  font-weight: 400;
+  /* margin-right: 30px; */
+}
+.access-navbar a {
+  color: #2f7dcf;
+  /* margin-right: 30px; */
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in-from-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

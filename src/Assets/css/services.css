@@ -1,0 +1,43 @@
+.services-section {
+  background-color: palevioletred;
+  width: 100%;
+  min-height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-image: url("delivery.jpg"); */
+}
+.backlight-background-div {
+  background-color: rgba(20, 23, 54, 0.8);
+  color: white;
+  display: flex;
+
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+
+  align-items: top;
+  justify-content: center;
+  padding: 20px;
+}
+.col img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 10px;
+}
+.col {
+  padding: 20px;
+  text-align: right;
+  position: relative;
+  max-width: 450px;
+  text-align: center;
+  min-width: 350px;
+  font-size: 110%;
+  font-family: Arial;
+}
+.col p {
+  padding: 10px;
+}
+.col h3 {
+  width: 100%;
+  padding: 20px;
+}
