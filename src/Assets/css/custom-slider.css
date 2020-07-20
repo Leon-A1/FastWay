@@ -8,13 +8,15 @@
 }
 .slider-wrapper button {
   background-color: transparent;
-  color: rgba(255, 255, 255, 0.4);
+  color: #ef6567;
   font-size: 150%;
   padding: 15px;
   border: none;
   outline: none;
   transition: 300ms ease;
-  z-index: 10;
+  z-index: 1000;
+  font-weight: 900;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .slider-wrapper button:hover {
   color: white;
@@ -59,33 +61,43 @@
   z-index: 10;
   background-color: rgba(255, 255, 255, 0.3);
   color: black;
-  top: 50px;
-  right: 50px;
-  left: 50px;
-  bottom: 50px;
+  top: 80px;
+  right: 80px;
+  left: 80px;
+  bottom: 80px;
   padding: 25px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-size: 130%;
+  text-align: right;
 }
+
 .content button {
   z-index: 150;
   color: white;
   border: solid white 3px;
-  background-color: #d94948;
+  background-color: #ef6567;
   border-radius: 15px;
-  margin: 10px;
+  margin: auto;
   font-size: 90%;
   font-weight: 900;
+  min-width: 200px;
 }
 .content button:hover {
-  color: #d94948;
+  color: #ef6567;
   background-color: white;
-  border: solid #d94948 3px;
+  border: solid #ef6567 3px;
 }
 @media (max-width: 900px) {
   .slider-wrapper {
-    min-height: 400px;
+    min-height: 600px;
+  }
+  .content {
+    padding: 15px;
+  }
+}
+@media (min-width: 900px) {
+  .content {
+    align-items: center;
   }
 }

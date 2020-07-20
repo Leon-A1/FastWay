@@ -82,7 +82,7 @@
   font-size: 36px;
   margin-left: 50px;
   cursor: pointer;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .navBarLogo {
@@ -150,6 +150,12 @@
   }
 }
 
+@media (max-width: 500px) {
+  .navBarLogo {
+    max-width: 50px;
+    /* max-height: 75px; */
+  }
+}
 @media (min-width: 850px) {
   .navBarLogo {
     max-width: 250px;
