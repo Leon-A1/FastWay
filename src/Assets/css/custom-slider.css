@@ -16,7 +16,7 @@
   transition: 300ms ease;
   z-index: 1000;
   font-weight: 900;
-  background-color: rgba(0, 0, 0, 0.1);
+  /* background-color: rgba(0, 0, 0, 0.1); */
 }
 .slider-wrapper button:hover {
   color: white;
@@ -59,17 +59,19 @@
 .content {
   position: absolute;
   z-index: 10;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.6);
   color: black;
-  top: 80px;
-  right: 80px;
-  left: 80px;
-  bottom: 80px;
+  top: 30px;
+  right: 30px;
+  left: 30px;
+  bottom: 30px;
   padding: 25px;
   display: flex;
   flex-direction: column;
   font-size: 130%;
   text-align: right;
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
 }
 
 .content button {
@@ -94,10 +96,18 @@
   }
   .content {
     padding: 15px;
+    font-size: 120%;
+  }
+  .content h1 {
+    font-size: 150%;
   }
 }
 @media (min-width: 900px) {
   .content {
     align-items: center;
+    top: 100px;
+    right: 200px;
+    left: 200px;
+    bottom: 100px;
   }
 }
