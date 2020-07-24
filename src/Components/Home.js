@@ -20,6 +20,7 @@ export default function Home() {
   return (
     <div className="main">
       <LACustomSlider />
+
       <ReadMoreSection />
       <Services />
       <LandingPageForm />

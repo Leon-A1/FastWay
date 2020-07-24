@@ -21,11 +21,13 @@
 .col {
   display: flex;
   flex-direction: column;
-  max-width: 350px;
+  /* max-width: 350px; */
+  max-width: 450px;
   justify-content: center;
   align-items: top;
   text-align: center;
-  margin: 50px;
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 .col img {
   max-width: 100px;
@@ -41,4 +43,9 @@
   font-size: 130%;
 
   width: 100%;
+}
+@media (min-width: 600px) {
+  .col {
+    max-width: 300px;
+  }
 }

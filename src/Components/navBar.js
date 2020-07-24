@@ -10,8 +10,8 @@ import "../Assets/css/aos.css";
 export default function SlidingResponsiveNavbar() {
   function openSlideMenu() {
     document.getElementById("side-menu").style.width = "250px";
-    document.getElementById("navBarLogo").style.opacity = "30%";
-    document.getElementById("topNavbarItems").style.opacity = "30%";
+    // document.getElementById("navBarLogo").style.opacity = "30%";
+    // document.getElementById("topNavbarItems").style.opacity = "30%";
     document.getElementById("home-small-nav-item").style.opacity = "1";
     document.getElementById("profile-small-nav-item").style.opacity = "1";
     document.getElementById("contact-small-nav-item").style.opacity = "1";
@@ -29,8 +29,8 @@ export default function SlidingResponsiveNavbar() {
     document.getElementById("contact-small-nav-item").style.opacity = "0";
 
     document.getElementById("side-menu").style.width = "0";
-    document.getElementById("topNavbarItems").style.opacity = "100%";
-    document.getElementById("navBarLogo").style.opacity = "100%";
+    // document.getElementById("topNavbarItems").style.opacity = "100%";
+    // document.getElementById("navBarLogo").style.opacity = "100%";
     document.getElementById("home-small-nav-item").style.transition = "200ms";
     document.getElementById("profile-small-nav-item").style.transition =
       "150ms";
@@ -44,9 +44,9 @@ export default function SlidingResponsiveNavbar() {
         <span id="hamburger-button-id">
           <button className="open-slide" onClick={openSlideMenu}>
             <svg width="30" height="30">
-              <path d="M0,5 30,5" stroke="#01458a" strokeWidth="5" />
-              <path d="M0,14 30,14" stroke="#01458a" strokeWidth="5" />
-              <path d="M0,23 30,23" stroke="#01458a" strokeWidth="5" />
+              <path d="M0,5 30,5" stroke="#d94948" strokeWidth="5" />
+              <path d="M0,14 30,14" stroke="#d94948" strokeWidth="5" />
+              <path d="M0,23 30,23" stroke="#d94948" strokeWidth="5" />
             </svg>
           </button>
         </span>

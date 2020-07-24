@@ -16,7 +16,24 @@ export default function LACustomSlider() {
   const [nextSlidingCurrentContent, setNextSlidingCurrentContent] = useState(
     "content_2"
   );
+  var slideIndex = 0;
+  carousel();
 
+  function carousel() {
+    var i;
+    const x = document.getElementsByClassName("content");
+
+    for (i = 0; i < x.length; i++) {
+      x[i].style.translateX = "100vh";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {
+      slideIndex = 1;
+    } else {
+      x[slideIndex - 1].style.translateX = "0";
+    }
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
   function nextSlide() {
     if (slidingCurrentImage === "sliding_image_1") {
       setSlidingCurrentImage("sliding_image_2");
@@ -53,7 +70,6 @@ export default function LACustomSlider() {
       "translateY(0px)";
     document.getElementById(nextSlidingCurrentContent).style.opacity = "1";
   }
-
   function prevSlide() {
     if (slidingCurrentImage === "sliding_image_1") {
       setSlidingCurrentImage("sliding_image_3");
@@ -88,7 +104,10 @@ export default function LACustomSlider() {
   }
   return (
     <div className="slider-wrapper">
-      <button onClick={nextSlide}>next</button>
+      <button onClick={nextSlide}>
+        {" "}
+        <div id="arrow-left" class="arrow"></div>
+      </button>
       <div className="images-container">
         <a href="/">
           <div id="content" className="content">
@@ -103,14 +122,14 @@ export default function LACustomSlider() {
             <button id="button_content_1">מידע נוסף </button>
           </div>
         </a>
-        <div id="content_2" className="content_2">
+        <div id="content_2" className="content">
           <h1>שליחויות לעסקים</h1>
           <p> בעל עסק נותן שירות משלוחים?</p>
           <p>פאסט ווטי אקספרס מספק שירותים לכלם סוגי העסקים</p>
 
           <button className="button_2">מידע נוסף</button>
         </div>
-        <div id="content_3" className="content_3">
+        <div id="content_3" className="content">
           <h1>שליחויות מהיום להיום</h1>
           <p> יש לך שליחות דחופה מבית העסק,צריך לשלוח מסמכים מהיום להיום </p>
           <p>שירות משלוחים מהיום להיום נועד בדיוק עבורך</p>
@@ -121,7 +140,9 @@ export default function LACustomSlider() {
         <img id="sliding_image_2" src={pic_2} alt=""></img>
         <img id="sliding_image_3" src={pic_3} alt=""></img>
       </div>
-      <button onClick={prevSlide}>prev</button>
+      <button onClick={prevSlide}>
+        <div class="arrow"></div>
+      </button>
     </div>
   );
 }
