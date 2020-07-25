@@ -4,6 +4,7 @@
   background-color: transparent;
   outline: none;
   cursor: pointer;
+
   /* margin-top: 130; */
 }
 #hamburger-button-id {
@@ -11,7 +12,7 @@
   top: 37px;
   /* left: 35px; */
   right: 35px;
-  z-index: 1500;
+  z-index: 1;
 }
 
 .side-nav {
@@ -31,10 +32,6 @@
   overflow-y: hidden;
 }
 
-.side-nav NavLink {
-  padding: 10px;
-  text-decoration: none;
-}
 .side-nav li {
   text-decoration: none;
   padding: 20px;
