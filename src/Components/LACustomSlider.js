@@ -12,7 +12,9 @@ export default function LACustomSlider() {
   const [nextSlidingCurrentImage, setNextSlidingCurrentImage] = useState(
     "sliding_image_2"
   );
-  const [slidingCurrentContent, setSlidingCurrentContent] = useState("content");
+  const [slidingCurrentContent, setSlidingCurrentContent] = useState(
+    "content_1"
+  );
   const [nextSlidingCurrentContent, setNextSlidingCurrentContent] = useState(
     "content_2"
   );
@@ -47,13 +49,13 @@ export default function LACustomSlider() {
       setNextSlidingCurrentImage("sliding_image_1");
 
       setSlidingCurrentContent("content_3");
-      setNextSlidingCurrentContent("content");
+      setNextSlidingCurrentContent("content_1");
     }
     if (slidingCurrentImage === "sliding_image_3") {
       setSlidingCurrentImage("sliding_image_1");
       setNextSlidingCurrentImage("sliding_image_2");
 
-      setSlidingCurrentContent("content");
+      setSlidingCurrentContent("content_1");
       setNextSlidingCurrentContent("content_2");
     }
     document.getElementById(slidingCurrentImage).style.transform =
@@ -80,14 +82,14 @@ export default function LACustomSlider() {
     if (slidingCurrentImage === "sliding_image_2") {
       setSlidingCurrentImage("sliding_image_1");
       setNextSlidingCurrentImage("sliding_image_3");
-      setSlidingCurrentContent("content");
+      setSlidingCurrentContent("content_1");
       setNextSlidingCurrentContent("content_3");
     }
     if (slidingCurrentImage === "sliding_image_3") {
       setSlidingCurrentImage("sliding_image_2");
       setNextSlidingCurrentImage("sliding_image_1");
       setSlidingCurrentContent("content_2");
-      setNextSlidingCurrentContent("content");
+      setNextSlidingCurrentContent("content_1");
     }
     document.getElementById(slidingCurrentImage).style.transform =
       "translateX(250px)";
@@ -110,7 +112,7 @@ export default function LACustomSlider() {
       </button>
       <div className="images-container">
         <a href="/">
-          <div id="content" className="content">
+          <div id="content_1" className="content">
             <h1>e-Commerce</h1>
             <p>
               {" "}
@@ -119,7 +121,7 @@ export default function LACustomSlider() {
             <p>? e-commerce לחנויות</p>
             <p>שירות משלוחים שלנו יתן לך את המענה המדיוק</p>
 
-            <button id="button_content_1">מידע נוסף </button>
+            <button>מידע נוסף</button>
           </div>
         </a>
         <div id="content_2" className="content">
@@ -127,14 +129,14 @@ export default function LACustomSlider() {
           <p> בעל עסק נותן שירות משלוחים?</p>
           <p>פאסט ווטי אקספרס מספק שירותים לכלם סוגי העסקים</p>
 
-          <button className="button_2">מידע נוסף</button>
+          <button>מידע נוסף</button>
         </div>
         <div id="content_3" className="content">
           <h1>שליחויות מהיום להיום</h1>
           <p> יש לך שליחות דחופה מבית העסק,צריך לשלוח מסמכים מהיום להיום </p>
           <p>שירות משלוחים מהיום להיום נועד בדיוק עבורך</p>
 
-          <button className="button_3"> מידע נוסף</button>
+          <button>מידע נוסף</button>
         </div>
         <img id="sliding_image_1" src={pic_1} alt=""></img>
         <img id="sliding_image_2" src={pic_2} alt=""></img>

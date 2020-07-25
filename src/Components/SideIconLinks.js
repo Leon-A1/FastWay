@@ -6,7 +6,7 @@ import messanger from "../Assets/img/messanger.png";
 import "../Assets/css/side-icon-links.css";
 export default function SideIconLinks() {
   return (
-    <div className="links-bar">
+    <div id="links-bar" className="links-bar">
       <a href="tel:050-950-5955">
         <img src={call_phone} alt="" />
       </a>

@@ -4,6 +4,8 @@
   flex-direction: column;
   right: 10px;
   bottom: 10px;
+  z-index: 1000;
+  max-width: 200px;
 }
 .links-bar img {
   max-width: 35px;
