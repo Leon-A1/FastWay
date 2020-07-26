@@ -17,12 +17,29 @@ export default function LandingPageForm() {
         className="landing-page-form"
       >
         <form>
-          <h1>?רוצים להזמין שירות</h1>
+          <h1 data-aos="fade-down" data-aos-offset="50">
+            ?רוצים להזמין שירות
+          </h1>
           <h2>השאירו פרטים ואנחנו כבר חוזרים</h2>
-          <input type="text" placeholder="שם מלא"></input>
-          <input type="email" placeholder="אימייל"></input>
-          <input type="text" placeholder="טלפון"></input>
-          <select name="form-type">
+          <input
+            data-aos="slide-right"
+            data-aos-offset="100"
+            type="text"
+            placeholder="שם מלא"
+          ></input>
+          <input
+            data-aos="slide-left"
+            data-aos-offset="100"
+            type="email"
+            placeholder="אימייל"
+          ></input>
+          <input
+            data-aos="slide-right"
+            data-aos-offset="100"
+            type="text"
+            placeholder="טלפון"
+          ></input>
+          <select data-aos="slide-left" name="form-type">
             <option value="none">בחר שירות</option>
             <option value="today">שליחויות מהיום להיום</option>
             <option value="tomorrow">שליחויות מהיום למחר</option>
@@ -32,7 +49,7 @@ export default function LandingPageForm() {
             <option value="baldar">הצמדת בלדר</option>
           </select>
 
-          <button>
+          <button data-aos="slide-up" data-aos-offset="50">
             <img src={rocket_icon} alt=""></img>שגר טופס
           </button>
         </form>

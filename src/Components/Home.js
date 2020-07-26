@@ -15,7 +15,7 @@ import SideIconLinks from "./SideIconLinks";
 
 export default function Home() {
   useEffect(() => {
-    Aos.init({ duration: 1200 });
+    Aos.init({ duration: 1800 });
   }, []);
   return (
     <div className="main">

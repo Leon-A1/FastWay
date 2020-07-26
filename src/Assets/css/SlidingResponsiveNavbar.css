@@ -4,13 +4,10 @@
   background-color: transparent;
   outline: none;
   cursor: pointer;
-
-  /* margin-top: 130; */
 }
 #hamburger-button-id {
   position: fixed;
   top: 37px;
-  /* left: 35px; */
   right: 35px;
   z-index: 1;
 }

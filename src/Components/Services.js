@@ -13,17 +13,7 @@ export default function Services() {
       className="services-section"
     >
       <div className="backlight-background-div">
-        <div className="col">
-          <img src={truck_icon} alt=""></img>
-
-          <h3>שליחויות מהיום להיום</h3>
-          <p>
-            לאדם הממוצע יש אינספור דברים שהוא צריך להעביר ממקום למקום במהלך
-            החודש/השנה. טוב לשמור מספר טלפון של חברת משלוחים שיכולה לספק
-            שליחויות מהיום להיום בין אם לעבודה בשוטף ובין אם לצרכי חירום
-          </p>
-        </div>
-        <div className="col">
+        <div className="col" data-aos="fade-up">
           <img src={store_icon} alt=""></img>
 
           <h3>e-Commerce</h3>
@@ -37,7 +27,17 @@ export default function Services() {
             מושקע בפרסום{" "}
           </p>
         </div>{" "}
-        <div className="col">
+        <div className="col" data-aos="fade-up" data-aos-delay="250">
+          <img src={truck_icon} alt=""></img>
+
+          <h3>שליחויות מהיום להיום</h3>
+          <p>
+            לאדם הממוצע יש אינספור דברים שהוא צריך להעביר ממקום למקום במהלך
+            החודש/השנה. טוב לשמור מספר טלפון של חברת משלוחים שיכולה לספק
+            שליחויות מהיום להיום בין אם לעבודה בשוטף ובין אם לצרכי חירום
+          </p>
+        </div>
+        <div className="col" data-aos="fade-up" data-aos-delay="500">
           <img src={gift_icon} alt=""></img>
 
           <h3>שליחויות לבתי עסק ופרטיים</h3>
