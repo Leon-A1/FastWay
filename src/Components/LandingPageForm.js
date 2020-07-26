@@ -23,19 +23,19 @@ export default function LandingPageForm() {
           <h2>השאירו פרטים ואנחנו כבר חוזרים</h2>
           <input
             data-aos="slide-right"
-            data-aos-offset="100"
+            data-aos-offset="50"
             type="text"
             placeholder="שם מלא"
           ></input>
           <input
             data-aos="slide-left"
-            data-aos-offset="100"
+            data-aos-offset="50"
             type="email"
             placeholder="אימייל"
           ></input>
           <input
             data-aos="slide-right"
-            data-aos-offset="100"
+            data-aos-offset="50"
             type="text"
             placeholder="טלפון"
           ></input>
@@ -49,7 +49,7 @@ export default function LandingPageForm() {
             <option value="baldar">הצמדת בלדר</option>
           </select>
 
-          <button data-aos="slide-up" data-aos-offset="50">
+          <button data-aos="slide-up" data-aos-offset="30">
             <img src={rocket_icon} alt=""></img>שגר טופס
           </button>
         </form>
