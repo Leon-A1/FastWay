@@ -10,6 +10,24 @@ import call_phone from "../Assets/img/call_phone.png";
 // import GetInContact from "./GetInContact";
 
 export default function SlidingResponsiveNavbar() {
+  // var prevScrollpos = window.pageYOffset;
+  // window.onscroll = function () {
+  //   var currentScrollPos = window.pageYOffset;
+  //   if (prevScrollpos > currentScrollPos) {
+  //     document.getElementById("mobile-call_now_container_id").style.transform =
+  //       "translateY(0)";
+  //     document.getElementById("navBarLogo").style.top = "40px";
+  //     document.getElementById("hamburger-button-id").style.top = "65px";
+  //     // document.getElementById("topNavbarItems").style.height = "120px";
+  //   } else {
+  //     document.getElementById("mobile-call_now_container_id").style.transform =
+  //       "translateY(-100px)";
+  //     document.getElementById("navBarLogo").style.top = "10px";
+  //     document.getElementById("hamburger-button-id").style.top = "35px";
+  //     // document.getElementById("topNavbarItems").style.height = "100px";
+  //   }
+  //   prevScrollpos = currentScrollPos;
+  // };
   function openSlideMenu() {
     document.getElementById("links-bar").style.transform = "translateX(300px)";
 
@@ -103,7 +121,10 @@ export default function SlidingResponsiveNavbar() {
             <NavLink to="/getintouch">צור קשר</NavLink>
           </li>
         </ul>
-        <div className="mobile-call_now_container">
+        <div
+          id="mobile-call_now_container_id"
+          className="mobile-call_now_container"
+        >
           <a href="tel:050-950-5955">
             {/* <h5>?צריכים שליח</h5> */}
             050-950-5955

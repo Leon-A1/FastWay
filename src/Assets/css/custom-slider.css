@@ -270,6 +270,13 @@
     left: 350px;
     right: 350px;
     bottom: 50px;
+    font-size: 130%;
+  }
+  #content_1 p {
+    font-size: 120%;
+  }
+  #content_1 h1 {
+    font-size: 250%;
   }
   #content_1 button:hover {
     background-color: white;
@@ -281,6 +288,12 @@
     right: 350px;
     bottom: 50px;
   }
+  #content_2 p {
+    font-size: 120%;
+  }
+  #content_2 h1 {
+    font-size: 250%;
+  }
   #content_2 button:hover {
     background-color: white;
     color: red;
@@ -290,5 +303,11 @@
     left: 350px;
     right: 350px;
     bottom: 50px;
+  }
+  #content_3 p {
+    font-size: 120%;
+  }
+  #content_3 h1 {
+    font-size: 250%;
   }
 }

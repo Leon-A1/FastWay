@@ -25,11 +25,23 @@ export default function Footer() {
             <img src={phone} alt=""></img> 050-950-5955
           </h5>
         </a>
-        <h6>
-          <div style={{ color: "#333" }}>#</div> כל הזכויות שמורות © 2020 פאסט
-          וואי אקספרס בע”מ
-        </h6>
+        <h5>
+          <div style={{ color: "#333" }}>#</div> כל הזכויות שמורות © 2020
+        </h5>
       </div>
+      <h5
+        style={{
+          margin: "auto",
+          // width: "100%",
+          backgroundColor: "#333",
+          display: "block",
+          textAlign: "center",
+          color: "white",
+          fontSize: "125%",
+        }}
+      >
+        פאסט וואי אקספרס בע”מ
+      </h5>
     </div>
   );
 }
