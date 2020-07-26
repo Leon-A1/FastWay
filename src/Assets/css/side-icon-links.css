@@ -32,6 +32,9 @@
   .links-bar img {
     max-width: 60px;
   }
+  .links-bar img:hover {
+    max-width: 90px;
+  }
   .links-bar {
     bottom: 50px;
     right: 30px;

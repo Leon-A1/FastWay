@@ -27,7 +27,7 @@ export default function LACustomSlider() {
     setTimeout(() => {
       setTimeLeft(calculateTimeLeft());
       nextSlide();
-    }, 7000);
+    }, 5000);
   });
 
   const [slidingCurrentImage, setSlidingCurrentImage] = useState(
@@ -42,24 +42,7 @@ export default function LACustomSlider() {
   const [nextSlidingCurrentContent, setNextSlidingCurrentContent] = useState(
     "content_2"
   );
-  var slideIndex = 0;
-  carousel();
 
-  function carousel() {
-    var i;
-    const x = document.getElementsByClassName("content");
-
-    for (i = 0; i < x.length; i++) {
-      x[i].style.translateX = "100vh";
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {
-      slideIndex = 1;
-    } else {
-      x[slideIndex - 1].style.translateX = "0";
-    }
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-  }
   function nextSlide() {
     if (slidingCurrentImage === "sliding_image_1") {
       setSlidingCurrentImage("sliding_image_2");
