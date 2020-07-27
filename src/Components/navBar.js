@@ -98,7 +98,7 @@ export default function SlidingResponsiveNavbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/" exact>
+            <NavLink to="/about" exact>
               אודות
             </NavLink>
           </li>

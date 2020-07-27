@@ -5,6 +5,7 @@ import ReadMoreSection from "./ReadMoreSection";
 import InfoFooter from "./InfoFooter";
 import LandingPageForm from "./LandingPageForm.js";
 import LACustomSlider from "./LACustomSlider.js";
+// import AboutPage from "./AboutPage.js";
 // import SplitScreenRowContentFirst from "./SplitScreenRowContentFirst";
 import "../Assets/css/layout.css";
 import "../Assets/css/aos.css";
@@ -20,7 +21,6 @@ export default function Home() {
   return (
     <div className="main">
       <LACustomSlider />
-
       <ReadMoreSection />
       <Services />
       <LandingPageForm />
