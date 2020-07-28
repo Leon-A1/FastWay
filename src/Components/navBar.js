@@ -103,7 +103,7 @@ export default function SlidingResponsiveNavbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/" exact>
+            <NavLink to="/ecommerce" exact>
               e-Commerce
             </NavLink>
           </li>
@@ -152,12 +152,12 @@ export default function SlidingResponsiveNavbar() {
             </NavLink>
           </li>
           <li id="about-small-nav-item">
-            <NavLink to="/" exact>
+            <NavLink to="/about" exact>
               אודות
             </NavLink>
           </li>
           <li id="ecom-small-nav-item">
-            <NavLink to="/" exact>
+            <NavLink to="/ecommerce" exact>
               e-Commerce
             </NavLink>
           </li>

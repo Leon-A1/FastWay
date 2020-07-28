@@ -1,12 +1,12 @@
-.about-page-wrapper {
+.Ecommerce-page-wrapper {
   font-family: Varela Round, sans-serif;
   max-width: 1100px;
   margin: auto;
   /* margin-top: 110px; */
 }
-#about-page-footer {
+#Ecommerce-page-footer {
 }
-.about-page-header {
+.Ecommerce-page-header {
   min-height: 200px;
   display: flex;
   justify-content: center;
@@ -15,7 +15,7 @@
   position: relative;
   margin-top: 110px;
 }
-.about-page-header img {
+.Ecommerce-page-header img {
   /* min-height: 200px; */
   width: 100%;
   height: 100%;
@@ -29,36 +29,38 @@
   width: 100%;
   z-index: 1;
 }
-.about-page-header h1 {
+.Ecommerce-page-header h1 {
   color: rgb(255, 255, 255);
   font-size: 250%;
+
+  margin-left: 100px;
   text-shadow: #2d2e8d 1px 1px;
   background-color: rgba(0, 0, 0, 0.02);
   border-radius: 50px;
   padding: 10px;
   z-index: 2;
 }
-.about-page-content {
+.Ecommerce-page-content {
   text-align: right;
   margin: 20px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.about-page-content img {
+.Ecommerce-page-content img {
   width: 100%;
   margin-bottom: 20px;
   border-radius: 70px;
 }
-.about-page-content h2 {
+.Ecommerce-page-content h2 {
   margin: 20px;
   font-size: 200%;
   color: #2a2a2a;
 }
-.about-page-content ul {
+.Ecommerce-page-content ul {
   list-style: none;
 }
-.about-page-content li {
+.Ecommerce-page-content li {
   padding: 25px;
   max-width: 500px;
   margin: auto;
@@ -69,7 +71,7 @@
   font-size: 125%;
   color: #2a2a2a;
 }
-.about-page-content p {
+.Ecommerce-page-content p {
   margin-right: 20px;
   margin-left: 20px;
   font-size: 150%;
@@ -77,20 +79,20 @@
 }
 
 @media (min-width: 1100px) {
-  .about-page-wrapper {
+  .Ecommerce-page-wrapper {
     /* margin-top: 150px; */
   }
-  .about-page-header {
+  .Ecommerce-page-header {
     margin-top: 150px;
     min-height: 400px;
   }
-  .about-page-content p {
+  .Ecommerce-page-content p {
     font-size: 175%;
   }
-  .about-page-content h2 {
+  .Ecommerce-page-content h2 {
     font-size: 225%;
   }
-  .about-page-content li {
+  .Ecommerce-page-content li {
     font-size: 150%;
   }
 
@@ -102,7 +104,7 @@
   }
   .left-col img {
     border-radius: 70px;
-    height: 100%;
+    height: 40%;
   }
   .right-col {
     min-width: 200px;
@@ -113,5 +115,6 @@
   .bottom-col {
     max-width: 100%;
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 }

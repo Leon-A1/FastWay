@@ -7,7 +7,7 @@
 }
 #hamburger-button-id {
   position: fixed;
-  /* top: 37px; */
+
   top: 30px;
   right: 25px;
   z-index: 1;
@@ -16,7 +16,7 @@
 .side-nav {
   height: 100%;
   text-align: center;
-  width: 0;
+  width: 0%;
   position: fixed;
   z-index: 15;
   top: 0;
@@ -103,7 +103,6 @@
   left: 0;
   background-color: rgba(255, 255, 255, 0.95);
   height: 90px;
-
   z-index: 0;
   font-size: 110%;
 }
