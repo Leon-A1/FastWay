@@ -9,11 +9,12 @@
 .Ecommerce-page-header {
   min-height: 200px;
   display: flex;
-  justify-content: center;
   align-items: center;
+
   margin-bottom: 50px;
   position: relative;
   margin-top: 110px;
+  width: 100%;
 }
 .Ecommerce-page-header img {
   /* min-height: 200px; */
@@ -32,8 +33,10 @@
 .Ecommerce-page-header h1 {
   color: rgb(255, 255, 255);
   font-size: 225%;
-
   margin-left: 100px;
+  display: block;
+  margin: auto;
+  /* text-align: center; */
   text-shadow: #2d2e8d 1px 1px;
   background-color: rgba(0, 0, 0, 0.02);
   border-radius: 50px;
