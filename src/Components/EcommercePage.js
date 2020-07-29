@@ -3,7 +3,7 @@ import SideIconLinks from "./SideIconLinks";
 import InfoFooter from "./InfoFooter";
 import "../Assets/css/Ecommerce-page.css";
 import LandingPageForm from "./LandingPageForm.js";
-import del_img from "../Assets/img/delivery2.jpg";
+import del_img from "../Assets/img/delivery3.jpg";
 import store_img from "../Assets/img/store.png";
 
 import Aos from "aos";

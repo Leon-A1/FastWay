@@ -108,12 +108,12 @@ export default function SlidingResponsiveNavbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/" exact>
+            <NavLink to="/delivery-today" exact>
               שירותי חברה
             </NavLink>
           </li>
           <li>
-            <NavLink to="/" exact>
+            <NavLink to="/hiring-page" exact>
               דרושים
             </NavLink>
           </li>
@@ -162,19 +162,17 @@ export default function SlidingResponsiveNavbar() {
             </NavLink>
           </li>
           <li id="services-small-nav-item">
-            <NavLink to="/" exact>
+            <NavLink to="/delivery-today" exact>
               שירותי חברה
             </NavLink>
           </li>
           <li id="needed-small-nav-item">
-            <NavLink to="/" exact>
+            <NavLink to="/hiring-page" exact>
               דרושים
             </NavLink>
           </li>
           <li id="contact-small-nav-item">
-            <NavLink to="/" exact>
-              צור קשר
-            </NavLink>
+            <NavLink to="/getintouch">צור קשר </NavLink>
           </li>
         </ul>
 

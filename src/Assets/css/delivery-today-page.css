@@ -1,0 +1,118 @@
+.delivery-today-page-wrapper {
+  font-family: Varela Round, sans-serif;
+  max-width: 1100px;
+  margin: auto;
+  /* margin-top: 110px; */
+}
+#delivery-today-page-footer {
+}
+.delivery-today-page-header {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  position: relative;
+  margin-top: 110px;
+}
+.delivery-today-page-header img {
+  /* min-height: 200px; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+}
+.header-backlight {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+.delivery-today-page-header h1 {
+  color: rgb(255, 255, 255);
+  font-size: 250%;
+  text-shadow: #2d2e8d 1px 1px;
+  background-color: rgba(0, 0, 0, 0.02);
+  border-radius: 50px;
+  padding: 10px;
+  z-index: 2;
+}
+.delivery-today-page-content {
+  text-align: right;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.delivery-today-page-content img {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 70px;
+  margin-top: 20px;
+}
+.delivery-today-page-content h2 {
+  margin: 20px;
+  font-size: 200%;
+  color: #2a2a2a;
+}
+.delivery-today-page-content ul {
+  list-style: none;
+}
+.delivery-today-page-content li {
+  padding: 25px;
+  max-width: 500px;
+  margin: auto;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 125%;
+  color: #2a2a2a;
+}
+.delivery-today-page-content p {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 150%;
+  color: #2a2a2a;
+}
+
+@media (min-width: 1100px) {
+  .delivery-today-page-wrapper {
+    /* margin-top: 150px; */
+  }
+  .delivery-today-page-header {
+    margin-top: 150px;
+    min-height: 400px;
+  }
+  .delivery-today-page-content p {
+    font-size: 175%;
+  }
+  .delivery-today-page-content h2 {
+    font-size: 225%;
+  }
+  .delivery-today-page-content li {
+    font-size: 150%;
+  }
+
+  .left-col {
+    min-width: 300px;
+    max-width: 500px;
+    margin-top: 20px;
+    border-radius: 123px;
+  }
+  .left-col img {
+    border-radius: 70px;
+    height: 80%;
+  }
+  .right-col {
+    min-width: 200px;
+    max-width: 500px;
+    margin: 20px;
+    margin-left: 40px;
+  }
+  .bottom-col {
+    max-width: 100%;
+    margin-top: 50px;
+  }
+}
