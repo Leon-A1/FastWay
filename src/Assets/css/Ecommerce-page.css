@@ -88,7 +88,9 @@
   .Ecommerce-page-header {
     margin-top: 150px;
     min-height: 400px;
+    font-size: 225%;
   }
+
   .Ecommerce-page-content p {
     font-size: 150%;
   }
