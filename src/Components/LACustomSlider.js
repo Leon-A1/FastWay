@@ -27,7 +27,7 @@ export default function LACustomSlider() {
     setTimeout(() => {
       setTimeLeft(calculateTimeLeft());
       nextSlide();
-    }, 5000);
+    }, 10000);
   });
 
   const [slidingCurrentImage, setSlidingCurrentImage] = useState(
@@ -112,7 +112,6 @@ export default function LACustomSlider() {
     document.getElementById(nextSlidingCurrentContent).style.opacity = "1";
   }
   console.log(timeLeft);
-  // console.log(timer);
   return (
     <div className="slider-wrapper">
       <button onClick={nextSlide}>

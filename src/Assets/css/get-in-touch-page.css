@@ -36,32 +36,11 @@
 }
 .get-in-touch-page-content {
   text-align: right;
-  margin: 50px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-
-.get-in-touch-page-content img {
-  width: 100%;
-  margin-bottom: 20px;
-  border-radius: 70px;
-}
-
-.get-in-touch-page-content ul {
-  list-style: none;
-}
-.get-in-touch-page-content li {
-  padding: 25px;
-  max-width: 500px;
-  margin: auto;
-  font-weight: bold;
-  font-size: 18px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  font-size: 125%;
-  color: #2a2a2a;
 }
 
 .get-in-touch-page-content h4 {
@@ -87,9 +66,6 @@
   font-size: 200%;
   color: #2a2a2a;
 }
-.get-in-touch-page-content li {
-  font-size: 150%;
-}
 .get-in-touch-page-right-col {
   max-width: 500px;
   width: 100%;
@@ -97,6 +73,7 @@
 .get-in-touch-page-left-col {
   width: 100%;
   max-width: 500px;
+  margin: auto;
 }
 @media (min-width: 1100px) {
   .get-in-touch-page-wrapper {

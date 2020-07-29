@@ -40,7 +40,7 @@
   padding: 15px;
   color: rgb(255, 255, 255);
   border: solid #ffffff 2px;
-  border-radius: 25px;
+  border-radius: 15px;
   font-size: 110%;
   text-align: center;
   margin-bottom: 10px;
@@ -60,7 +60,7 @@
   padding: 15px;
   color: rgb(255, 255, 255);
   border: solid #ffffff 2px;
-  border-radius: 25px;
+  border-radius: 15px;
   font-size: 120%;
   text-align: right;
   margin-bottom: 10px;
@@ -81,8 +81,8 @@
   color: #fc1a0a;
   background-color: #ffffff;
   border: solid #ffffff 3px;
-  border-radius: 25px;
-  transition: 600ms ease;
+  border-radius: 15px;
+
   font-size: 130%;
   cursor: pointer;
   font-weight: 600;
@@ -99,7 +99,6 @@
   color: white;
 
   background-color: #2934a3;
-  transition: 600ms ease;
 }
 #checkbox-id-desktop {
   display: none;

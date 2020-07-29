@@ -53,7 +53,6 @@ export default function LandingPageForm() {
             <img src={rocket_icon} alt=""></img>שגר טופס
           </button>
         </form>
-        {/* </div> */}
       </div>
     </div>
   );
