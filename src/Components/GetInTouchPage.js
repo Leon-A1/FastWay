@@ -11,7 +11,7 @@ import Aos from "aos";
 
 function GetInTouch() {
   useEffect(() => {
-    Aos.init({ duration: 1800 });
+    Aos.init({ duration: 800 });
   }, []);
   return (
     <div>
@@ -26,30 +26,42 @@ function GetInTouch() {
             {" "}
             <div className="get-in-touch-page-form">
               <form>
-                <h1 data-aos="fade-down" data-aos-offset="50">
+                <h1
+                  data-aos="fade-down"
+                  data-aos-offset="-50"
+                  data-aos-delay="350"
+                >
                   ? רוצים שליח
                 </h1>
 
                 <h2>השאירו פרטים ואנחנו כבר חוזרים</h2>
                 <input
-                  data-aos="slide-right"
-                  data-aos-offset="50"
+                  data-aos="fade-right"
+                  data-aos-offset="-50"
+                  data-aos-delay="350"
                   type="text"
                   placeholder="שם מלא"
                 ></input>
                 <input
-                  data-aos="slide-left"
-                  data-aos-offset="50"
+                  data-aos="fade-left"
+                  data-aos-offset="-50"
+                  data-aos-delay="350"
                   type="email"
                   placeholder="אימייל"
                 ></input>
                 <input
-                  data-aos="slide-right"
-                  data-aos-offset="50"
+                  data-aos="fade-right"
+                  data-aos-offset="-50"
+                  data-aos-delay="350"
                   type="text"
                   placeholder="טלפון"
                 ></input>
-                <select data-aos="slide-left" name="form-type">
+                <select
+                  data-aos="fade-left"
+                  data-aos-offset="-50"
+                  data-aos-delay="350"
+                  name="form-type"
+                >
                   <option value="none">בחר שירות</option>
                   <option value="today">שליחויות מהיום להיום</option>
                   <option value="tomorrow">שליחויות מהיום למחר</option>
@@ -65,7 +77,13 @@ function GetInTouch() {
               </form>
             </div>
           </div>
-          <div className="get-in-touch-page-right-col">
+          <div
+            input
+            data-aos="zoom-in-up"
+            data-aos-offset="-50"
+            data-aos-delay="350"
+            className="get-in-touch-page-right-col"
+          >
             {" "}
             <h2>לפרטים ומידע נוסף</h2>
             <p>050-950-5955</p>

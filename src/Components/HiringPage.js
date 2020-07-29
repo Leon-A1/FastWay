@@ -11,7 +11,7 @@ import Aos from "aos";
 
 function HiringPage() {
   useEffect(() => {
-    Aos.init({ duration: 1800 });
+    Aos.init({ duration: 800 });
   }, []);
   return (
     <div>
@@ -20,10 +20,16 @@ function HiringPage() {
         <img src={del_img} alt=""></img>
         <h1>דרושים</h1>
       </div>
+
       <div className="hiring-page-wrapper">
         <div className="hiring-page-content">
           <div className="open-positions-container">
-            <div className="open-position">
+            <div
+              data-aos="zoom-in-right"
+              data-aos-offset="-50"
+              data-aos-delay="350"
+              className="open-position"
+            >
               <img src={truck_icon} alt=""></img>
 
               <h3>דרוש/ה נהג/ת קטנוע</h3>
@@ -62,32 +68,32 @@ function HiringPage() {
             </h1>
             <h2>השאירו פרטים ואנחנו כבר חוזרים</h2>
             <input
-              data-aos="slide-right"
+              data-aos="zoom-in-right"
               data-aos-offset="50"
               type="text"
               placeholder="שם מלא"
             ></input>
             <input
-              data-aos="slide-left"
+              data-aos="zoom-in-left"
               data-aos-offset="50"
               type="email"
               placeholder="אימייל"
             ></input>
             <input
-              data-aos="slide-right"
+              data-aos="zoom-in-right"
               data-aos-offset="50"
               type="text"
               placeholder="טלפון"
             ></input>
             <span>קורות חיים</span>
             <input
-              data-aos="slide-right"
+              data-aos="zoom-in-right"
               data-aos-offset="50"
               type="file"
               placeholder=""
             ></input>
 
-            <button data-aos="slide-up" data-aos-offset="30">
+            <button data-aos="zoom-in-up" data-aos-offset="30">
               <img src={rocket_icon} alt=""></img>שגר טופס
             </button>
           </form>
