@@ -44,7 +44,7 @@
 }
 .hiring-page-header h1 {
   color: rgb(255, 255, 255);
-  font-size: 250%;
+  font-size: 225%;
   text-shadow: #2d2e8d 1px 1px;
   background-color: rgba(0, 0, 0, 0.02);
   border-radius: 50px;
@@ -60,7 +60,7 @@
 
 .hiring-page-content h2 {
   margin: 20px;
-  font-size: 200%;
+  font-size: 175%;
   color: #2a2a2a;
 }
 .hiring-page-content ul {
@@ -74,11 +74,11 @@
   font-size: 18px;
   margin-bottom: 10px;
   margin-top: 10px;
-  font-size: 125%;
+  font-size: 115%;
   color: #2a2a2a;
 }
 .hiring-page-content p {
-  font-size: 150%;
+  font-size: 125%;
   color: #2a2a2a;
   margin-bottom: 10px;
 }
@@ -93,7 +93,7 @@
   margin-bottom: 10px;
 }
 .hiring-page-content h6 {
-  font-size: 125%;
+  font-size: 100%;
   color: #2a2a2a;
   margin-bottom: 10px;
   margin-top: 15px;
@@ -108,13 +108,22 @@
     min-height: 400px;
   }
   .hiring-page-content p {
-    font-size: 175%;
+    font-size: 150%;
   }
   .hiring-page-content h2 {
-    font-size: 225%;
+    font-size: 250%;
+  }
+  .hiring-page-content h2 {
+    font-size: 200%;
   }
   .hiring-page-content li {
-    font-size: 150%;
+    font-size: 125%;
+  }
+  .hiring-page-content h6 {
+    font-size: 115%;
+  }
+  .hiring-page-content h4 {
+    font-size: 175%;
   }
 
   .left-col {

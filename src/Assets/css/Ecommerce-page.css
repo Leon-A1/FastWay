@@ -31,7 +31,7 @@
 }
 .Ecommerce-page-header h1 {
   color: rgb(255, 255, 255);
-  font-size: 250%;
+  font-size: 225%;
 
   margin-left: 100px;
   text-shadow: #2d2e8d 1px 1px;
@@ -54,7 +54,7 @@
 }
 .Ecommerce-page-content h2 {
   margin: 20px;
-  font-size: 200%;
+  font-size: 175%;
   color: #2a2a2a;
 }
 .Ecommerce-page-content ul {
@@ -68,13 +68,13 @@
   font-size: 18px;
   margin-bottom: 10px;
   margin-top: 10px;
-  font-size: 125%;
+  font-size: 115%;
   color: #2a2a2a;
 }
 .Ecommerce-page-content p {
   margin-right: 20px;
   margin-left: 20px;
-  font-size: 150%;
+  font-size: 125%;
   color: #2a2a2a;
 }
 
@@ -87,13 +87,13 @@
     min-height: 400px;
   }
   .Ecommerce-page-content p {
-    font-size: 175%;
+    font-size: 150%;
   }
   .Ecommerce-page-content h2 {
-    font-size: 225%;
+    font-size: 200%;
   }
   .Ecommerce-page-content li {
-    font-size: 150%;
+    font-size: 125%;
   }
 
   .left-col {

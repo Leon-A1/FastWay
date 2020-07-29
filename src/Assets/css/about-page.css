@@ -52,7 +52,7 @@
 }
 .about-page-content h2 {
   margin: 20px;
-  font-size: 200%;
+  font-size: 175%;
   color: #2a2a2a;
 }
 .about-page-content ul {
@@ -66,13 +66,13 @@
   font-size: 18px;
   margin-bottom: 10px;
   margin-top: 10px;
-  font-size: 125%;
+  font-size: 115%;
   color: #2a2a2a;
 }
 .about-page-content p {
   margin-right: 20px;
   margin-left: 20px;
-  font-size: 150%;
+  font-size: 125%;
   color: #2a2a2a;
 }
 
@@ -85,13 +85,13 @@
     min-height: 400px;
   }
   .about-page-content p {
-    font-size: 175%;
+    font-size: 150%;
   }
   .about-page-content h2 {
-    font-size: 225%;
+    font-size: 200%;
   }
   .about-page-content li {
-    font-size: 150%;
+    font-size: 125%;
   }
 
   .left-col {
