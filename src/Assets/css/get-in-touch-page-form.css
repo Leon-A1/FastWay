@@ -1,15 +1,12 @@
 .form-section {
-  /* width: 100%; */
 }
 .get-in-touch-page-form {
-  /* background-color: rgba(185, 47, 47, 0.6); */
   z-index: 100;
 }
 .red-form-wrapper {
 }
 .get-in-touch-page-form form {
   background-color: rgba(255, 255, 255, 0.3);
-  /* width: 100%; */
   display: flex;
   flex-direction: column;
   text-align: right;
@@ -17,7 +14,6 @@
   padding-bottom: 50px;
   border-radius: 5px;
   z-index: 0;
-  /* text-align: center; */
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -109,4 +105,9 @@
 #checkbox-id-mobile {
   margin: 5px;
   margin-top: 15px;
+}
+@media (min-width: 600px) {
+  .get-in-touch-page-form h1 {
+    margin: 0px;
+  }
 }
