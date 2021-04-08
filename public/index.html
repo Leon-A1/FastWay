@@ -7,10 +7,11 @@
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Fastway Express LTD " />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    <link rel="stylesheet" href="page_loader.css" />
+
+    manifest.json provides metadata used when your web app is installed on a
+    user's mobile device or desktop. See
+    https://developers.google.com/web/fundamentals/web-app-manifest/ -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!-- <link
       rel="stylesheet"
@@ -30,6 +31,19 @@
     <title>Fastway Express LTD</title>
   </head>
   <body>
+    <div class="spinner-wrapper-content" id="page-loader-wrapper">
+      <div class="spinner">
+        <svg
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="8" cy="8" r="7" stroke-width="2" />
+        </svg>
+      </div>
+    </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

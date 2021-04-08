@@ -11,6 +11,7 @@ import Aos from "aos";
 function AboutPage() {
   useEffect(() => {
     Aos.init({ duration: 1800 });
+    document.querySelector("#page-loader-wrapper").style.opacity = 0;
   }, []);
   return (
     <div>

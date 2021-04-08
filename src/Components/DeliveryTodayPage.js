@@ -12,6 +12,7 @@ import Aos from "aos";
 function DeliveryTodayPage() {
   useEffect(() => {
     Aos.init({ duration: 1800 });
+    document.querySelector("#page-loader-wrapper").style.opacity = 0;
   }, []);
   return (
     <div>

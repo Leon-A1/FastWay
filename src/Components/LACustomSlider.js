@@ -112,6 +112,7 @@ export default function LACustomSlider() {
     document.getElementById(nextSlidingCurrentContent).style.opacity = "1";
   }
   console.log(timeLeft);
+
   return (
     <div className="slider-wrapper">
       <button onClick={nextSlide}>
@@ -170,7 +171,14 @@ export default function LACustomSlider() {
         </div>
         <img id="sliding_image_1" src={pic_1} alt=""></img>
         <img id="sliding_image_2" src={pic_2} alt=""></img>
-        <img id="sliding_image_3" src={pic_3} alt=""></img>
+        <img
+          id="sliding_image_3"
+          src={pic_3}
+          alt=""
+          onLoad={() => {
+            document.querySelector("#page-loader-wrapper").style.opacity = 0;
+          }}
+        ></img>
       </div>
       <button onClick={prevSlide}>
         <div className="arrow"></div>
