@@ -13,6 +13,7 @@ function GetInTouch() {
   useEffect(() => {
     Aos.init({ duration: 800 });
     document.querySelector("#page-loader-wrapper").style.opacity = 0;
+    window.scrollTo(0, 0);
   }, []);
   return (
     <div>

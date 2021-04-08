@@ -12,6 +12,7 @@ function AboutPage() {
   useEffect(() => {
     Aos.init({ duration: 1800 });
     document.querySelector("#page-loader-wrapper").style.opacity = 0;
+    window.scrollTo(0, 0);
   }, []);
   return (
     <div>
